@@ -5,9 +5,10 @@ export default function Document() {
         <Html>
             <Head>
                 <link rel="preconnect" href="https://fonts.gstatic.com" />
-                <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"></link>
+                <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"></link>
+                <title>kaizen | fullstack & game dev.</title>
             </Head>
-            <body>
+            <body className='bg-[#f8f8f8] dark:bg-[#111111] duration-200'>
                 <Main />
                 <NextScript />
             </body>

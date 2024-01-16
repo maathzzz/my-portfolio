@@ -1,0 +1,13 @@
+.toRightGradient {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, rgb(134, 239, 172), rgb(59, 130, 246), rgb(147, 51, 234));
+}
+
+.toLeftGradient {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to left, rgb(134, 239, 172), rgb(59, 130, 246), rgb(147, 51, 234));
+}
