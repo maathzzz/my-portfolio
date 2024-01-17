@@ -13,7 +13,7 @@ import { useTheme } from "next-themes";
  * animation is now fully compatible with user-set transforms.
  */
 
-export default function SwitchButton() {
+export default function SwitchButton({ className }: any) {
     const { theme, setTheme } = useTheme();
     const [isOn, setIsOn] = useState(false);
     const [justifyClass, setJustifyClass] = useState("justify-start");
@@ -40,7 +40,7 @@ export default function SwitchButton() {
     }, [isOn])
 
     return (
-        <button className={`w-[40px] h-[22px] bg-gray-300 opacity-50 flex ${justifyClass} items-center duration-200 rounded-[50px] p-[4px] cursor-pointer`} data-isOn={isOn} onClick={switchTheme}>
+        <button className={`w-[40px] h-[22px] bg-gray-300 opacity-50 flex ${justifyClass} items-center duration-200 rounded-[50px] p-[4px] cursor-pointer ${className}`} data-isOn={isOn} onClick={switchTheme}>
             <motion.div className={`w-[18px] h-[18px] rounded-full ${isOn ? 'bg-white' : 'bg-[#141414]'} flex justify-center items-center`} layout transition={spring}>
 
                 {isOn ? (
