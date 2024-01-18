@@ -1,0 +1,9 @@
+.lineMask {
+    overflow: hidden;
+    z-index: -1;
+}
+
+.lineMask p {
+    margin: 0px;
+    font-weight: 700;
+}
