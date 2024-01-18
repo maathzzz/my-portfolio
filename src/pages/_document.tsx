@@ -9,8 +9,10 @@ export default function Document() {
                 <title>matheus a. | fullstack & game dev.</title>
             </Head>
             <body className='bg-[#f8f8f8] dark:bg-[#111111] duration-200'>
-                <Main />
-                <NextScript />
+                <div className=''>
+                    <Main />
+                    <NextScript />
+                </div>
             </body>
         </Html>
     )
