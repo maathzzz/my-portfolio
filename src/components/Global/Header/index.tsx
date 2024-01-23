@@ -11,7 +11,7 @@ export default function Header() {
             <div className="flex w-full h-full flex-row justify-between items-center">
                 {/* <div className="text-3xl w-[6.5rem] font-bold text-[#cc063e]"><span className="text-[#fd9407]">M</span></div> */}
                 <div className="w-[6.5rem]">
-                    <div className="w-[2.5rem] h-[2.5rem] rounded-full" onClick={() => {scrollToTop()}} style={{
+                    <div className="w-[2.5rem] h-[2.5rem] rounded-full cursor-pointer" onClick={() => {scrollToTop()}} style={{
                         backgroundImage: 'url(/skelly.jpg)',
                         backgroundSize: 'cover',
                         backgroundPosition: 'center'
