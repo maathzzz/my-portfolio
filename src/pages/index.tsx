@@ -1,6 +1,6 @@
 import DefaultLayout from '@/layouts/DefaultLayout'
 import styles from '@/styles/home.module.scss'
-import StickyCursor from '@/components/StickyCursor';
+import StickyCursor from '@/components/stickyCursor';
 import TextMask from '@/components/TextMask';
 
 export default function Home() {

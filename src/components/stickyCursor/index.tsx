@@ -59,11 +59,11 @@ export default function StickyCursor() {
                 className={`${styles.cursor} border-[1px] border-black dark:border-white`}
                 style={{ left: smoothMouse.x, top: smoothMouse.y }}
             >
-                <motion.div
+                {/* <motion.div
                     className={`${styles.dot} border-[1px] border-black dark:border-white`}
                     style={{ left: smoothDot.x, top: smoothDot.y }}
                 >
-                </ motion.div>
+                </ motion.div> */}
             </ motion.div>
             
         </>
