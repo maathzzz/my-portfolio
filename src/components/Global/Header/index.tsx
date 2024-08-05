@@ -27,7 +27,7 @@ export default function Header() {
 
                 <div className="flex flex-row items-center gap-4">
                     <SwitchButton />
-                    <NavButton />
+                    {/* <NavButton /> */}
                 </div>
             </div>
         </header>
